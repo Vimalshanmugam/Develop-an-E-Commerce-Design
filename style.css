@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    text-align:end ;
+}
+header{
+    background-color:#b3b3f9;
+    /* color: whitesmoke; */
+    height: 45px;
+    text-align: center;
+    padding: 10px; 
+}
+header ul li{
+    text-decoration: none;
+}
+ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 35px;
+    /* margin-top: 12px; */
+}
+ul a:hover{
+      color: black;
+}
+header li{
+    text-decoration: none;
+}
+marquee{
+    color: whitesmoke;
+    background: rgb(0,14,36);
+    background: linear-gradient(90deg, rgba(0,14,36,1) 0%, rgba(9,36,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+.product{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.product img{
+    filter: drop-shadow(15px 5px 5px grey);
+}
+.obj {
+   border: 1px solid #ccc;
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    flex: 0 1 calc(33.33% - 20px); /* Set flex basis to one-third of container width*/
+    max-width: calc(33.33% - 20px); /* Set max width to one-third of container width */
+    margin-bottom: 20px;  
+
+}
+  
+.objs{
+    text-align: center;
+    margin-top: 40px;
+}
+button {
+    background-color: black;
+    color: rgb(179, 179, 249);
+    text-align: center; /* Center text horizontally */
+    padding: 10px 20px; /* Add padding for better appearance */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    transition: 1s;
+}
+.hometext{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+}
+footer{
+    background: rgb(0,14,36);
+    background: linear-gradient(90deg, rgba(0,14,36,1) 0%, rgba(9,36,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: whitesmoke;
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
